@@ -1,6 +1,7 @@
 #ifndef MAIN_h
 #define MAIN_h
-
+ 
+void print_times_table(int n);
 int print_sign(int n);
 void print_to_98(int n);
 int add(int, int);
