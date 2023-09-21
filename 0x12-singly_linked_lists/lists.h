@@ -3,7 +3,7 @@
 
 /**
  * struct list_s - these are the singly linked list
- * @str: string it has to be malloc'ed string
+ * @str: string has to be malloc'ed string
  * @len: length of string
  * @next: next node
  *

@@ -1,5 +1,5 @@
 The task before us today is singly link list, from task 0 to 4 as mandatory and with two advance questions added for possible solution
-
+A "lists.h" file is created first, it has most of the library used to write most of the functions
 Task 0
 
 I am supposed to write a function that prints all the elements of the  list_t list.
