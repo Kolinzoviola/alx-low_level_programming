@@ -37,7 +37,7 @@ returns  0r -1
 Task 4
 
 functions that sets value of a bit to 0
-Prototype: int clear_bit(unsigned long int *n, unsigned int index)
+Prototype: int clear bit(unsigned long int *n, unsigned int index)
 
 returns 1 or -1
 
@@ -59,9 +59,6 @@ Task 7
 find the password for the; https://github.com/alx-tools/0x13.c
 ave the password in the file 101-password
 Your file should contain the exact password, no new line, no extra space
-
-
-
 
 
 
