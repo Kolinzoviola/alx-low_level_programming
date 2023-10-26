@@ -1,24 +1,20 @@
 #include "main.h"
 
 /**
- * get_endianness - Checks if the machine is little or big endian.
+ * get_endianness - Checks the endianness of the system.
  *
- * union: decribes memory location
- * Return: 0 for big-endian, 1 for little-endian
+ * This function checks whether the system is big-endian or little-endian
+ * by examining the least significant byte of an integer.
+ *
+ * Return: 0 if the system is big-endian, 1 if it's little-endian.
  */
-int get_endianness(void)
+	int get_endianness(void)
 {
-	union
-	{
-		unsigned int i;
-		char c[sizeof(unsigned int)];
-	} test;
+	int num = 1;
+	char *endian = (char *)&num;
 
-	test.i = 1;
+	if (*endian == 1)
+		return (1);
 
-    /* Check the endianness by examining the least significant byte */
-	if (test.c[0] == 1)
-		return (1); /* Little-endian */
-	else
-		return (0); /* Big-endian */
+	return (0);
 }
